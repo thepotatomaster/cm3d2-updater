@@ -6,6 +6,8 @@ Anyways
 I started this project with the goal of simplifying dlc/update installing for cm3d2 as it took a while
 Right now it can only install one thing at a time but I have plans to add an install all/multi-select option
 
+Download: https://github.com/thepotatomaster/cm3d2-updater/raw/master/bin/Debug/CM3D2%20Updater.exe
+
 #Todo:
 1. Add multi-select and install all options
 2. Fix bug when the directory length is too long
