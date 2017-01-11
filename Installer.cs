@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Windows.Forms;
 
@@ -28,7 +28,7 @@ namespace CM3D2_Updater { //TODO: Allow installing multiple files (DO THIS!!!)
                             break;
                         }
                     }
-                    if (!install && currentVersion == 0) installButton.Enabled = file.install = install = true;
+                    if (!install && currentVersion == 0 || install) installButton.Enabled = file.install = install = true;
                     selectedContent.Items.Add(file.name + " " + file.version + " -> " + currentVersion, install);
                 }
             }
