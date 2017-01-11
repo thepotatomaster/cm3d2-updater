@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.Win32;
 using System.Windows.Forms;
 using System.Collections.Generic;
@@ -25,7 +25,7 @@ namespace CM3D2_Updater {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             try {
-                installDir = Registry.CurrentUser.OpenSubKey(@"Software\KISS\カスタムメイド3D2").GetValue("InstallPath").ToString() + @"\tmp";
+                installDir = Registry.CurrentUser.OpenSubKey(@"Software\KISS\カスタムメイド3D2").GetValue("InstallPath").ToString();
 #pragma warning disable CS0168 // Variable is declared but never used
             } catch (Exception e) {
 #pragma warning restore CS0168 // Variable is declared but never used
